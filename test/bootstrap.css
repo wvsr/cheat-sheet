@@ -1,0 +1,179 @@
+/* standard global variable  */
+:root {
+  --clr-blue: #0d6efd;
+  --clr-indigo: #6610f2;
+  --clr-purple: #6f42c1;
+  --clr-pink: #d63384;
+  --clr-red: #dc3545;
+  --clr-orange: #fd7e14;
+  --clr-yellow: #ffc107;
+  --clr-green: #198754;
+  --clr-teal: #20c997;
+  --clr-cyan: #0dcaf0;
+  --clr-white: #fff;
+  --clr-gray: #6c757d;
+  --clr-gray-dark: #343a40;
+  --shadow-1: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  --shadow-2: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  --shadow-3: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+/* standard font family ************************************** */
+
+/*
+   @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap'); 
+   font-family: 'Roboto Mono', monospace;
+   
+   ################################################################################################
+   
+   @import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+   font-family: 'Oxygen', sans-serif;
+
+   ################################################################################################
+
+   @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+   font-family: 'Roboto', sans-serif;
+
+  */
+
+/* heading standard style */
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.h1,
+h1 {
+  font-size: calc(1.375rem + 1.5vw);
+}
+
+@media (min-width: 1200px) {
+  .h1,
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+.h2,
+h2 {
+  font-size: calc(1.325rem + 0.9vw);
+}
+
+@media (min-width: 1200px) {
+  .h2,
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+.h3,
+h3 {
+  font-size: calc(1.3rem + 0.6vw);
+}
+
+@media (min-width: 1200px) {
+  .h3,
+  h3 {
+    font-size: 1.75rem;
+  }
+}
+
+.h4,
+h4 {
+  font-size: calc(1.275rem + 0.3vw);
+}
+
+@media (min-width: 1200px) {
+  .h4,
+  h4 {
+    font-size: 1.5rem;
+  }
+}
+
+.h5,
+h5 {
+  font-size: 1.25rem;
+}
+
+.h6,
+h6 {
+  font-size: 1rem;
+}
+
+/* standard body style  */
+
+body {
+  margin: 0;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* standard container style  */
+
+.container,
+.container-fluid {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+/* standard text style  */
+
+.text-break {
+  word-wrap: break-word !important;
+  word-break: break-word !important;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
